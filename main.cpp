@@ -13,17 +13,24 @@ void callMyClass(string testString);
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
+private:
+    // declared public varibale which could be set from outside
+    string testString;
     // access specifier (private, proteced, public)
     public:
-        // declared public varibale which could be set from outside
-        string testString;
-
         // declared public function in MyClass
         void testMyClass(){
             cout << "test MyClass" << endl;
         }
         void printString(){
             cout << "testString set to: \n" << "\t" << testString << endl;
+        }
+        void setTestString(string stringToSet){
+            testString = stringToSet;
+        }
+        string getString(){
+            printString();
+            return testString;
         }
 };
 
@@ -128,10 +135,8 @@ void callMyClass(string StringToTest){
 
     // create a object of MyClass and set variable String in object
     MyClass myClassObject;
-    myClassObject.testString = StringToTest;
-    myClassObject.printString();
-    // cout << "testString: " << myClassObject.testString << endl;
-
+    myClassObject.setTestString(StringToTest);
+    myClassObject.getString();
     cout << "\n" << endl;
 
 }
