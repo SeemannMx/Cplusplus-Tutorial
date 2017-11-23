@@ -1,12 +1,12 @@
 #include <iostream>
-
-// declaration of functions on top
-void cOutTest();
-void variablesTest();
-
-
 // using standard library
 using namespace std;
+
+// declaration (prototyping) of functions on top
+void cOutTest();
+void variablesTest();
+void ifElseTest();
+int calcAge(int yearBorn, int yearToday);
 
 /**
  * start main in C++ to start tutorial
@@ -17,21 +17,16 @@ int main() {
     // 1. C OUT STREAM
     cOutTest();
 
-
     // 2. Variables
     variablesTest();
 
     // 8. If Statments
-    cout << " 8. If Statments \n --------------" << endl;
-    int condition = 4;
-    int test = 4;
+   ifElseTest();
 
-    if(test >= condition){
-        cout << "if test for int success" << endl;
-    } else {
-        cout << "if test for int fail" << endl;
-
-    }
+    //11. function with paramters
+    int x = 1984;
+    int y = 2017;
+    calcAge(x, y);
 
     return 0;
 }
@@ -39,7 +34,7 @@ int main() {
 void cOutTest(){
 
     // print out to same line
-    cout << " 1. C OUT STREAM \n --------------" << endl;
+    cout << " 1. c out stream \n --------------" << endl;
     cout << "Hello ";
     cout << "World \n";
 
@@ -61,5 +56,34 @@ void variablesTest(){
     cout << testVariable << endl;
 
     cout << "\n" << endl;
+
+}
+
+void ifElseTest(){
+    cout << " 8. If Statments \n --------------" << endl;
+    int condition = 4;
+    int test = 4;
+
+    if(test >= condition){
+        cout << "if test for int success" << endl;
+        cout << "\n" << endl;
+    } else {
+        cout << "if test for int fail" << endl;
+        cout << "\n" << endl;
+
+    }
+
+}
+
+int calcAge(int yearBorn, int yearToday){
+    cout << " 11. function with param \n --------------" << endl;
+    int result = yearToday - yearBorn;
+
+    cout << "calculated age is: " << result << endl;
+
+    cout << "\n" << endl;
+    return result;
+
+
 
 }
