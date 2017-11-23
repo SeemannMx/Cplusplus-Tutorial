@@ -8,15 +8,22 @@ void variablesTest();
 void ifElseTest();
 int calcAge(int yearBorn, int yearToday);
 void callMyClass();
+void callMyClass(string testString);
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
     // access specifier (private, proteced, public)
     public:
+        // declared public varibale which could be set from outside
+        string testString;
+
         // declared public function in MyClass
         void testMyClass(){
             cout << "test MyClass" << endl;
+        }
+        void printString(){
+            cout << "testString set to: \n" << "\t" << testString << endl;
         }
 };
 
@@ -40,8 +47,12 @@ int main() {
     int y = 2017;
     calcAge(x, y);
 
-    // 12. Objects and Classes (group functions in class)
+    // 12. objects and classes (group functions in class)
     callMyClass();
+
+    // 13. variables in classes
+    string testString = "String To Test In Class";
+    callMyClass(testString);
 
     return 0;
 }
@@ -107,6 +118,19 @@ void callMyClass(){
     // create a object of MyClass and call functions declared in MyClass
     MyClass myClassObject;
     myClassObject.testMyClass();
+
+    cout << "\n" << endl;
+
+}
+
+void callMyClass(string StringToTest){
+    cout << " 13. object & classes & variables \n ----------------------------" << endl;
+
+    // create a object of MyClass and set variable String in object
+    MyClass myClassObject;
+    myClassObject.testString = StringToTest;
+    myClassObject.printString();
+    // cout << "testString: " << myClassObject.testString << endl;
 
     cout << "\n" << endl;
 
