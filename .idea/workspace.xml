@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="690703e2-a850-4dfc-bca6-e5bbd3f22a9c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C__Tutorial.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C__Tutorial.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/C__Tutorial" afterPath="$PROJECT_DIR$/cmake-build-debug/C__Tutorial" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C__Tutorial.dir/main.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="129" column="62" lean-forward="false" selection-start-line="129" selection-start-column="62" selection-end-line="129" selection-end-column="62" />
+            <state relative-caret-position="502">
+              <caret line="349" column="53" lean-forward="false" selection-start-line="349" selection-start-column="53" selection-end-line="349" selection-end-column="53" />
               <folding>
                 <element signature="e#68#87#0" expanded="true" />
               </folding>
@@ -160,7 +158,7 @@
       <updated>1511440381681</updated>
       <workItem from="1511440384305" duration="5957000" />
       <workItem from="1511521821233" duration="5000" />
-      <workItem from="1511521832535" duration="6789000" />
+      <workItem from="1511521832535" duration="7360000" />
     </task>
     <task id="LOCAL-00001" summary="FUNCTION: parameter array to function, overload function">
       <created>1511531560967</created>
@@ -173,7 +171,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12751000" />
+    <option name="totallyTimeSpent" value="13322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-307" y="-1177" width="1320" height="1177" extended-state="0" />
@@ -262,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="129" column="62" lean-forward="false" selection-start-line="129" selection-start-column="62" selection-end-line="129" selection-end-column="62" />
+        <state relative-caret-position="502">
+          <caret line="349" column="53" lean-forward="false" selection-start-line="349" selection-start-column="53" selection-end-line="349" selection-end-column="53" />
           <folding>
             <element signature="e#68#87#0" expanded="true" />
           </folding>

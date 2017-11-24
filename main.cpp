@@ -24,6 +24,8 @@ void printNumber(float b);
 void printPassedArray(int inputArray[], int size);
 void printPassedArray(float inputArray[], int size);
 
+void pointerExcersise();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -135,6 +137,9 @@ int main() {
 
         printPassedArray(myTestArray, 3);
         printPassedArray(myTestArray2, 4);
+
+    // 38. pointers
+        pointerExcersise();
 
     return 0;
 }
@@ -331,6 +336,22 @@ void printPassedArray(float inputArray[], int size){
 
         cout <<"float value at index [" << i << "] is " << result << endl;
     }
+    cout << "\n" << endl;
+
+}
+
+void pointerExcersise(){
+    cout << " 38. pointer \n ----------------------------" << endl;
+
+    int test = 5;
+    // & adress operator
+    cout << "adress of test value:  " << &test << endl;
+
+    // pointer is a variable that hold a memoryadress
+    int *testPointer;
+    testPointer = &test;
+    cout << "pointer to test value: " << testPointer << endl;
+
     cout << "\n" << endl;
 
 }
