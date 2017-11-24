@@ -16,6 +16,8 @@ void callConstructorOfMyClassWithParam();
 void callExternalClass();
 void cInAndLoopTest();
 
+void sentinelControlledProgramm();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -104,12 +106,14 @@ int main() {
     // 14, constructors
     callConstructorOfMyClassWithParam();
 
-    // 15. classes in seperate files
+    // 18. classes in seperate files
     callExternalClass();
 
-    // 16. c in and while loops
+    // 19. c in and while loops
     cInAndLoopTest();
 
+    // 20. sentinal controlled programm
+    sentinelControlledProgramm();
 
     return 0;
 }
@@ -203,7 +207,7 @@ void callConstructorOfMyClassWithParam(){
 }
 
 void callExternalClass(){
-    cout << " 15. call class from external source \n ----------------------------" << endl;
+    cout << " 18. call class from external source \n ----------------------------" << endl;
     MyTestClass myTestClass;
     cout << "\n" << endl;
 
@@ -211,20 +215,46 @@ void callExternalClass(){
 }
 
 void cInAndLoopTest(){
-    cout << " 16. c in and while loop test \n ----------------------------" << endl;
+    cout << " 19. c in and while loop test \n ----------------------------" << endl;
 
     int x = 1;
     int number;
 
     cout << "enterd a number: ";
-    cin >> number;
-
+    // cin >> number;
+    number = 2;
     while(x < number){
         cout << "enterd number: " << number << endl;
         cout << "number is grater than " << x << endl;
         cout << "...................." << endl;
         x++;
     }
+
+    cout << "\n" << endl;
+}
+
+void sentinelControlledProgramm(){
+    cout << " 20. c in and while loop test \n ----------------------------" << endl;
+
+    // simple average age calculator (sentine wächter)
+    int age;
+    int ageTotal = 0;
+    int numberOfPeopleEntered = 0;
+
+    cout << "enter age or -1 t quit: ";
+    cin >> age;
+
+    while(age != -1){
+        ageTotal += age;
+        numberOfPeopleEntered++;
+
+        cout << "enter age or -1 t quit: ";
+        cin >> age;
+    }
+
+    cout << "number of peole entered: " << numberOfPeopleEntered << endl;
+    cout << "total age:               " << ageTotal << endl;
+    cout << "average age:             " << ageTotal / numberOfPeopleEntered << endl;
 
     cout << "\n" << endl;
 
