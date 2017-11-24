@@ -21,6 +21,8 @@ void callMyClass(string testString);
 void printNumber(int a);
 void printNumber(float b);
 
+void workWithArray();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -123,6 +125,9 @@ int main() {
     float b = 5.4;
     printNumber(a);
     printNumber(b);
+
+    // 32. arrays
+    workWithArray();
 
 
     return 0;
@@ -282,6 +287,23 @@ void printNumber(int a){
 void printNumber(float b){
     cout << " 30. function overload \n ----------------------------" << endl;
     cout << "print out float " << b << endl;
+    cout << "\n" << endl;
+
+}
+
+void workWithArray(){
+    cout << " 31. array \n ----------------------------" << endl;
+
+    int sizeOfArray = 5;
+
+    int myArray[sizeOfArray];
+
+    for(int i = 0; i < sizeOfArray; i++){
+        myArray[i] = i * 2;
+
+        cout << "number at index [" << i << "] is "<<myArray[i] << endl;
+    }
+
     cout << "\n" << endl;
 
 }
