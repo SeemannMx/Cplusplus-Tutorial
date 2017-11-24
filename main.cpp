@@ -127,7 +127,7 @@ int main() {
         printNumber(a);
         printNumber(b);
 
-    // 32. arrays
+    // 32. arrays / overload function with diffrent array typs
         workWithArray();
 
         int myTestArray[3] = { 9 , 8 , 7 };
