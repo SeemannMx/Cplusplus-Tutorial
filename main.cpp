@@ -26,6 +26,12 @@ void printPassedArray(float inputArray[], int size);
 
 void pointerExcersise();
 
+void sizeOfCheck();
+
+// dived by size of one element depending of size of element it will
+// correct number of elements in array
+int getSizeOfArray(double inputArray[]);
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -140,6 +146,9 @@ int main() {
 
     // 38. pointers
         pointerExcersise();
+
+    // 40. size of
+        sizeOfCheck();
 
     return 0;
 }
@@ -353,5 +362,31 @@ void pointerExcersise(){
     cout << "pointer to test value: " << testPointer << endl;
 
     cout << "\n" << endl;
+
+}
+
+void sizeOfCheck(){
+    char c;
+    int i;
+    double db;
+    double myArray[10];
+
+    cout << "size of char: \t\t\t" << sizeof(c) << endl;
+    cout << "size of int: \t\t\t" << sizeof(i) << endl;
+    cout << "size of double: \t\t" << sizeof(db) << endl;
+    cout << "size of array[]: \t\t" << sizeof(myArray) << endl;
+        // size of myArray 80 why? each double vaule needs 8byts => 8 * 10
+
+
+    // dived by size of one element depending of size of element it will
+    // correct number of elements in array
+    cout << "corrected array size: \t"  << sizeof(myArray) / sizeof(myArray[0])<< endl;
+
+
+}
+
+int getSizeOfArray(double inputArray[]){
+
+    return sizeof(inputArray) / sizeof(inputArray[0]);
 
 }
