@@ -27,8 +27,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2461">
-              <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+            <state relative-caret-position="530">
+              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding>
                 <element signature="e#68#87#0" expanded="true" />
               </folding>
@@ -157,12 +157,12 @@
       <updated>1511440381681</updated>
       <workItem from="1511440384305" duration="5957000" />
       <workItem from="1511521821233" duration="5000" />
-      <workItem from="1511521832535" duration="4363000" />
+      <workItem from="1511521832535" duration="5251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10325000" />
+    <option name="totallyTimeSpent" value="11213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-307" y="-1177" width="1320" height="1177" extended-state="0" />
@@ -247,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2461">
-          <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+        <state relative-caret-position="530">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="e#68#87#0" expanded="true" />
           </folding>

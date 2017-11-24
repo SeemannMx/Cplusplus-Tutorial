@@ -10,13 +10,16 @@ void cOutTest();
 void variablesTest();
 void ifElseTest();
 int calcAge(int yearBorn, int yearToday);
-void callMyClass();
-void callMyClass(string testString);
 void callConstructorOfMyClassWithParam();
 void callExternalClass();
 void cInAndLoopTest();
-
 void sentinelControlledProgramm();
+
+// overload functions
+void callMyClass();
+void callMyClass(string testString);
+void printNumber(int a);
+void printNumber(float b);
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -114,6 +117,13 @@ int main() {
 
     // 20. sentinal controlled programm
     sentinelControlledProgramm();
+
+    // 30. overloading of functions
+    int a = 54;
+    float b = 5.4;
+    printNumber(a);
+    printNumber(b);
+
 
     return 0;
 }
@@ -242,20 +252,36 @@ void sentinelControlledProgramm(){
     int numberOfPeopleEntered = 0;
 
     cout << "enter age or -1 t quit: ";
-    cin >> age;
+    //cin >> age;
+    age = 10;
 
     while(age != -1){
         ageTotal += age;
         numberOfPeopleEntered++;
 
         cout << "enter age or -1 t quit: ";
-        cin >> age;
+        // cin >> age;
+        age = -1;
     }
 
     cout << "number of peole entered: " << numberOfPeopleEntered << endl;
     cout << "total age:               " << ageTotal << endl;
     cout << "average age:             " << ageTotal / numberOfPeopleEntered << endl;
 
+    cout << "\n" << endl;
+
+}
+
+void printNumber(int a){
+    cout << " 30. function overload \n ----------------------------" << endl;
+    cout << "print out int " << a << endl;
+    cout << "\n" << endl;
+
+}
+
+void printNumber(float b){
+    cout << " 30. function overload \n ----------------------------" << endl;
+    cout << "print out float " << b << endl;
     cout << "\n" << endl;
 
 }
