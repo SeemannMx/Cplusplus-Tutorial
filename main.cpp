@@ -1,4 +1,7 @@
+// include header files for each created class or neccessery libary
 #include <iostream>
+#include "MyTestClass.h"
+
 // using standard library
 using namespace std;
 
@@ -9,8 +12,9 @@ void ifElseTest();
 int calcAge(int yearBorn, int yearToday);
 void callMyClass();
 void callMyClass(string testString);
-
 void callConstructorOfMyClassWithParam();
+
+void callExternalClass();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -100,6 +104,8 @@ int main() {
     // 14, constructors
     callConstructorOfMyClassWithParam();
 
+    // 15. classes in seperate files
+    callExternalClass();
 
     return 0;
 }
@@ -187,6 +193,16 @@ void callConstructorOfMyClassWithParam(){
     string testString = "test string for constructor";
     MyClassWithParam myClassWithParam(testString);
     myClassWithParam.getString();
+    cout << "\n" << endl;
+
+
+}
+
+void callExternalClass(){
+    cout << " 15. call class from external source \n ----------------------------" << endl;
+    MyTestClass myTestClass;
+    cout << "\n" << endl;
+
 
 }
 

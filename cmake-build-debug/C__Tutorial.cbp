@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/main.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>

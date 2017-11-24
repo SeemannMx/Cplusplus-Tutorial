@@ -123,6 +123,33 @@ C__Tutorial/fast:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/build
 .PHONY : C__Tutorial/fast
 
+MyTestClass.o: MyTestClass.cpp.o
+
+.PHONY : MyTestClass.o
+
+# target to build an object file
+MyTestClass.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o
+.PHONY : MyTestClass.cpp.o
+
+MyTestClass.i: MyTestClass.cpp.i
+
+.PHONY : MyTestClass.i
+
+# target to preprocess a source file
+MyTestClass.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.i
+.PHONY : MyTestClass.cpp.i
+
+MyTestClass.s: MyTestClass.cpp.s
+
+.PHONY : MyTestClass.s
+
+# target to generate assembly for a file
+MyTestClass.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.s
+.PHONY : MyTestClass.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C__Tutorial"
+	@echo "... MyTestClass.o"
+	@echo "... MyTestClass.i"
+	@echo "... MyTestClass.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

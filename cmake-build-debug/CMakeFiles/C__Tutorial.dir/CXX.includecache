@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp
+../MyTestClass.h
+/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+iostream
+-
+
 /Users/tkallinich/CLionProjects/C++Tutorial/main.cpp
 iostream
 -
+MyTestClass.h
+/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
 
