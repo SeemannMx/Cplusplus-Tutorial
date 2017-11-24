@@ -10,6 +10,8 @@ int calcAge(int yearBorn, int yearToday);
 void callMyClass();
 void callMyClass(string testString);
 
+void callConstructorOfMyClassWithParam();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -18,12 +20,17 @@ private:
     string testString;
     // access specifier (private, proteced, public)
     public:
+        // constructos
+        MyClass(){
+            cout << "test MyClass constructor" << endl;
+
+        }
         // declared public function in MyClass
         void testMyClass(){
             cout << "test MyClass" << endl;
         }
         void printString(){
-            cout << "testString set to: \n" << "\t" << testString << endl;
+            cout << "get testString to: \n" << "\t" << testString << endl;
         }
         void setTestString(string stringToSet){
             testString = stringToSet;
@@ -34,6 +41,35 @@ private:
         }
 };
 
+class MyClassWithParam{
+private:
+    // declared public varibale which could be set from outside
+    string testString;
+    // access specifier (private, proteced, public)
+public:
+    // constructos
+   MyClassWithParam(string test){
+
+        cout << "test MyClassWithParam constructor" << endl;
+        setTestString(test);
+
+    }
+    // declared public function in MyClass
+    void testMyClass(){
+        cout << "test MyClass" << endl;
+    }
+    void printString(){
+        cout << "set testString to: " << "\t" << testString << endl;
+    }
+    void setTestString(string stringToSet){
+        cout << "set String:   \t\t"<< stringToSet << endl;
+        testString = stringToSet;
+    }
+    string getString(){
+        printString();
+        return testString;
+    }
+};
 /**
  * start main in C++ to start tutorial
  *
@@ -60,6 +96,10 @@ int main() {
     // 13. variables in classes
     string testString = "String To Test In Class";
     callMyClass(testString);
+
+    // 14, constructors
+    callConstructorOfMyClassWithParam();
+
 
     return 0;
 }
@@ -138,6 +178,15 @@ void callMyClass(string StringToTest){
     myClassObject.setTestString(StringToTest);
     myClassObject.getString();
     cout << "\n" << endl;
+
+}
+
+void callConstructorOfMyClassWithParam(){
+    cout << " 14. constructor \n ----------------------------" << endl;
+
+    string testString = "test string for constructor";
+    MyClassWithParam myClassWithParam(testString);
+    myClassWithParam.getString();
 
 }
 
