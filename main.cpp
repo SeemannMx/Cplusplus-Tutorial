@@ -13,8 +13,8 @@ int calcAge(int yearBorn, int yearToday);
 void callMyClass();
 void callMyClass(string testString);
 void callConstructorOfMyClassWithParam();
-
 void callExternalClass();
+void cInAndLoopTest();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -106,6 +106,10 @@ int main() {
 
     // 15. classes in seperate files
     callExternalClass();
+
+    // 16. c in and while loops
+    cInAndLoopTest();
+
 
     return 0;
 }
@@ -206,4 +210,22 @@ void callExternalClass(){
 
 }
 
+void cInAndLoopTest(){
+    cout << " 16. c in and while loop test \n ----------------------------" << endl;
 
+    int x = 1;
+    int number;
+
+    cout << "enterd a number: ";
+    cin >> number;
+
+    while(x < number){
+        cout << "enterd number: " << number << endl;
+        cout << "number is grater than " << x << endl;
+        cout << "...................." << endl;
+        x++;
+    }
+
+    cout << "\n" << endl;
+
+}
