@@ -14,14 +14,15 @@ void callConstructorOfMyClassWithParam();
 void callExternalClass();
 void cInAndLoopTest();
 void sentinelControlledProgramm();
+void workWithArray();
 
 // overload functions
 void callMyClass();
 void callMyClass(string testString);
 void printNumber(int a);
 void printNumber(float b);
-
-void workWithArray();
+void printPassedArray(int inputArray[], int size);
+void printPassedArray(float inputArray[], int size);
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -88,47 +89,52 @@ public:
  */
 int main() {
     // 1. c out stream
-    cOutTest();
+        cOutTest();
 
     // 2. Variables
-    variablesTest();
+        variablesTest();
 
     // 8. If Statments
-   ifElseTest();
+        ifElseTest();
 
     // 10. function with paramters
-    int x = 1984;
-    int y = 2017;
-    calcAge(x, y);
+        int x = 1984;
+        int y = 2017;
+        calcAge(x, y);
 
     // 12. objects and classes (group functions in class)
-    callMyClass();
+        callMyClass();
 
     // 13. variables in classes
-    string testString = "String To Test In Class";
-    callMyClass(testString);
+        string testString = "String To Test In Class";
+        callMyClass(testString);
 
     // 14, constructors
-    callConstructorOfMyClassWithParam();
+        callConstructorOfMyClassWithParam();
 
     // 18. classes in seperate files
-    callExternalClass();
+        callExternalClass();
 
     // 19. c in and while loops
-    cInAndLoopTest();
+        cInAndLoopTest();
 
     // 20. sentinal controlled programm
-    sentinelControlledProgramm();
+        sentinelControlledProgramm();
 
     // 30. overloading of functions
-    int a = 54;
-    float b = 5.4;
-    printNumber(a);
-    printNumber(b);
+        int a = 54;
+        float b = 5.4;
+        printNumber(a);
+        printNumber(b);
 
     // 32. arrays
-    workWithArray();
+        workWithArray();
 
+        int myTestArray[3] = { 9 , 8 , 7 };
+        float myTestArray2[4] = { 2.1 , 3.0 , 6.0 , 7.4 };
+
+        printPassedArray(myTestArray, 3);
+        printPassedArray(myTestArray2, 4);
 
     return 0;
 }
@@ -304,6 +310,27 @@ void workWithArray(){
         cout << "number at index [" << i << "] is "<<myArray[i] << endl;
     }
 
+    cout << "\n" << endl;
+
+}
+
+void printPassedArray(int inputArray[], int size){
+
+    for(int i = 0; i < size; i++){
+        inputArray[i];
+        cout <<"int value at index [" << i << "] is " << inputArray[i] << endl;
+    }
+    cout << "\n" << endl;
+
+}
+
+void printPassedArray(float inputArray[], int size){
+
+    for(int i = 0; i < size; i++){
+        float result = inputArray[i];
+
+        cout <<"float value at index [" << i << "] is " << result << endl;
+    }
     cout << "\n" << endl;
 
 }
