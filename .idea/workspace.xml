@@ -27,8 +27,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="361" column="61" lean-forward="false" selection-start-line="361" selection-start-column="61" selection-end-line="361" selection-end-column="61" />
+            <state relative-caret-position="353">
+              <caret line="422" column="0" lean-forward="true" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
               <folding>
                 <element signature="e#68#87#0" expanded="true" />
               </folding>
@@ -157,7 +157,7 @@
       <updated>1511440381681</updated>
       <workItem from="1511440384305" duration="5957000" />
       <workItem from="1511521821233" duration="5000" />
-      <workItem from="1511521832535" duration="8746000" />
+      <workItem from="1511521832535" duration="9854000" />
     </task>
     <task id="LOCAL-00001" summary="FUNCTION: parameter array to function, overload function">
       <created>1511531560967</created>
@@ -170,7 +170,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14708000" />
+    <option name="totallyTimeSpent" value="15816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="361" column="61" lean-forward="false" selection-start-line="361" selection-start-column="61" selection-end-line="361" selection-end-column="61" />
+        <state relative-caret-position="353">
+          <caret line="422" column="0" lean-forward="true" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
           <folding>
             <element signature="e#68#87#0" expanded="true" />
           </folding>

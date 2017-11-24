@@ -32,6 +32,8 @@ void sizeOfCheck();
 // correct number of elements in array
 int getSizeOfArray(double inputArray[]);
 
+void mathPointer();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -149,6 +151,12 @@ int main() {
 
     // 40. size of
         sizeOfCheck();
+
+    // 41. math with pointers
+        mathPointer();
+
+
+
 
     return 0;
 }
@@ -366,6 +374,8 @@ void pointerExcersise(){
 }
 
 void sizeOfCheck(){
+    cout << " 40. get size of ... \n ----------------------------" << endl;
+
     char c;
     int i;
     double db;
@@ -381,12 +391,50 @@ void sizeOfCheck(){
     // dived by size of one element depending of size of element it will
     // correct number of elements in array
     cout << "corrected array size: \t"  << sizeof(myArray) / sizeof(myArray[0])<< endl;
-
+    cout << "\n" << endl;
 
 }
 
-int getSizeOfArray(double inputArray[]){
+void mathPointer(){
+    cout << " 41. math with pointer \n ----------------------------" << endl;
 
-    return sizeof(inputArray) / sizeof(inputArray[0]);
+    int myArray[5];
+    int *adressToMyArray0 = &myArray[0];
+    int *adressToMyArray1 = &myArray[1];
+    int *adressToMyArray2 = &myArray[2];
+
+    // see that adress jumps for each pointer by 4, because required space for one int is 4bytes
+    cout << "adress to myArray[0]: \t" << adressToMyArray0 << " int" << endl;
+    cout << "adress to myArray[1]: \t" << adressToMyArray1 << " int" << endl;
+    cout << "adress to myArray[2]: \t" << adressToMyArray2 << " int" <<endl;
+    cout << "\n" << endl;
+
+
+    double myFloatArray[5];
+    double *adressToMyArrayDouble0 = &myFloatArray[0];
+    double *adressToMyArrayDouble1 = &myFloatArray[1];
+    double *adressToMyArrayDouble2 = &myFloatArray[2];
+
+    // see that adress jumps for each pointer by 4, because required space for one int is 4bytes
+    cout << "adress to myArray[0]: \t" << adressToMyArrayDouble0 << " double "<< endl;
+    cout << "adress to myArray[1]: \t" << adressToMyArrayDouble1 << " double "<< endl;
+    cout << "adress to myArray[2]: \t" << adressToMyArrayDouble2 << " double "<< endl;
+    cout << "\n" << endl;
+
+
+    string myStringArray[5];
+    string *adressToMyArrayString0 = &myStringArray[0];
+    string *adressToMyArrayString1 = &myStringArray[1];
+    string *adressToMyArrayString2 = &myStringArray[2];
+
+    // see that adress jumps for each pointer by 4, because required space for one int is 4bytes
+    cout << "adress to myArray[0]: \t" << adressToMyArrayString0 << " string"<< endl;
+    cout << "adress to myArray[1]: \t" << adressToMyArrayString1 << " string"<< endl;
+    cout << "adress to myArray[2]: \t" << adressToMyArrayString2 << " string"<< endl;
+
+
+
+
+    cout << "\n" << endl;
 
 }
