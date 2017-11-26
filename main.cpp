@@ -37,6 +37,10 @@ void mathPointer();
 
 void getSelektor();
 
+void deConstructorTest();
+
+void constantTest();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -161,8 +165,13 @@ int main() {
     // 42. selection operator
         getSelektor();
 
+    // 43. deconstructors
+        deConstructorTest();
 
+    // 44. constant objects / functions
+        constantTest();
 
+    // on end of main, all deconstructors for all objects are called
     return 0;
 }
 
@@ -456,3 +465,27 @@ void getSelektor(){
     cout << "\n" << endl;
 
 }
+
+void deConstructorTest(){
+    cout << " 43. constructor / deconstructor \n ----------------------------" << endl;
+
+    Selektor selektor;
+    cout << "test selector" << endl;
+
+    cout << "\n" << endl;
+
+}
+
+void constantTest(){
+    cout << " 44. constant objects / functions \n ----------------------------" << endl;
+
+    const Selektor mySelectConstant;
+    mySelectConstant.doConstantSomething();
+
+    cout << "constant object test \n" << endl;
+
+    cout << "\n" << endl;
+
+
+}
+

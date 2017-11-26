@@ -8,8 +8,13 @@
 
 class Selektor {
     public:
+    // constructor
     Selektor();
+    // deconstructor
+    ~Selektor();
+
     void doSomething();
+    void doConstantSomething() const;
 };
 
 
