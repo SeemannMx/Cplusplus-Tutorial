@@ -3,5 +3,5 @@ project(C__Tutorial)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp cmake-build-debug/MyTestClass.cpp MyTestClass.h Selektor.cpp Selektor.h Birthday.cpp Birthday.h People.cpp People.h)
-add_executable(C__Tutorial ${SOURCE_FILES} Selektor.cpp Selektor.h Birthday.cpp Birthday.h People.cpp People.h)
+set(SOURCE_FILES main.cpp cmake-build-debug/MyTestClass.cpp MyTestClass.h Selektor.cpp Selektor.h Birthday.cpp Birthday.h People.cpp People.h FriendsClass.cpp FriendsClass.h)
+add_executable(C__Tutorial ${SOURCE_FILES} Selektor.cpp Selektor.h Birthday.cpp Birthday.h People.cpp People.h FriendsClass.cpp FriendsClass.h)

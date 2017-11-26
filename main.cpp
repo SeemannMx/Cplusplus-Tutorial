@@ -4,6 +4,7 @@
 #include "Selektor.h"
 #include "Birthday.h"
 #include "People.h"
+#include "FriendsClass.h"
 
 // using standard library
 using namespace std;
@@ -44,6 +45,8 @@ void deConstructorTest();
 void constantTest();
 
 void composition();
+
+void createFriend();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -177,6 +180,11 @@ int main() {
 
     // 46. composition
         composition();
+
+    // 48. keyword: friend
+        createFriend();
+
+
 
     // on end of main, all deconstructors for all objects are called
     return 0;
@@ -504,6 +512,24 @@ void composition(){
     Birthday bd(10,5,1984);
     People person("Tino", bd);
     person.printInfo();
+
+    cout << "\n" << endl;
+
+}
+
+
+void privateFunction(FriendsClass &friendsClass) {
+    friendsClass.privateVar=24;
+
+    cout << "private FriendClass member: \t\t"<<friendsClass.privateVar << endl;
+
+}
+
+void createFriend(){
+    cout << " 48. keyword: friend \n ----------------------------" << endl;
+
+    FriendsClass myFriend;
+    privateFunction(myFriend);
 
     cout << "\n" << endl;
 

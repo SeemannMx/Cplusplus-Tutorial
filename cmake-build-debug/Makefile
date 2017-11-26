@@ -150,6 +150,33 @@ Birthday.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Birthday.cpp.s
 .PHONY : Birthday.cpp.s
 
+FriendsClass.o: FriendsClass.cpp.o
+
+.PHONY : FriendsClass.o
+
+# target to build an object file
+FriendsClass.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o
+.PHONY : FriendsClass.cpp.o
+
+FriendsClass.i: FriendsClass.cpp.i
+
+.PHONY : FriendsClass.i
+
+# target to preprocess a source file
+FriendsClass.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.i
+.PHONY : FriendsClass.cpp.i
+
+FriendsClass.s: FriendsClass.cpp.s
+
+.PHONY : FriendsClass.s
+
+# target to generate assembly for a file
+FriendsClass.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.s
+.PHONY : FriendsClass.cpp.s
+
 MyTestClass.o: MyTestClass.cpp.o
 
 .PHONY : MyTestClass.o
@@ -270,6 +297,9 @@ help:
 	@echo "... Birthday.o"
 	@echo "... Birthday.i"
 	@echo "... Birthday.s"
+	@echo "... FriendsClass.o"
+	@echo "... FriendsClass.i"
+	@echo "... FriendsClass.s"
 	@echo "... MyTestClass.o"
 	@echo "... MyTestClass.i"
 	@echo "... MyTestClass.s"

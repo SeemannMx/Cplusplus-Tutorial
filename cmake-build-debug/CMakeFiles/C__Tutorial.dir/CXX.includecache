@@ -14,6 +14,14 @@ Birthday.h
 
 /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
 
+/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp
+iostream
+-
+FriendsClass.h
+/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
 
 /Users/tkallinich/CLionProjects/C++Tutorial/People.cpp
@@ -55,4 +63,6 @@ Birthday.h
 /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
 People.h
 /Users/tkallinich/CLionProjects/C++Tutorial/People.h
+FriendsClass.h
+/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
 
