@@ -85,6 +85,12 @@
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>

@@ -1,6 +1,7 @@
 // include header files for each created class or neccessery libary
 #include <iostream>
 #include "MyTestClass.h"
+#include "Selektor.h"
 
 // using standard library
 using namespace std;
@@ -33,6 +34,8 @@ void sizeOfCheck();
 int getSizeOfArray(double inputArray[]);
 
 void mathPointer();
+
+void getSelektor();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -155,6 +158,8 @@ int main() {
     // 41. math with pointers
         mathPointer();
 
+    // 42. selection operator
+        getSelektor();
 
 
 
@@ -409,7 +414,6 @@ void mathPointer(){
     cout << "adress to myArray[2]: \t" << adressToMyArray2 << " int" <<endl;
     cout << "\n" << endl;
 
-
     double myFloatArray[5];
     double *adressToMyArrayDouble0 = &myFloatArray[0];
     double *adressToMyArrayDouble1 = &myFloatArray[1];
@@ -432,8 +436,22 @@ void mathPointer(){
     cout << "adress to myArray[1]: \t" << adressToMyArrayString1 << " string"<< endl;
     cout << "adress to myArray[2]: \t" << adressToMyArrayString2 << " string"<< endl;
 
+    cout << "\n" << endl;
 
+}
 
+void getSelektor(){
+
+    cout << " 42. selection operator \n ----------------------------" << endl;
+
+    // call function from object with dot operator
+    Selektor mySelektor;
+    mySelektor.doSomething();
+
+    //make a pointer to SelektorClass
+    Selektor *selektorPointer = &mySelektor;
+    // call function with arrow member selection operator "->" from object
+    selektorPointer->doSomething();
 
     cout << "\n" << endl;
 

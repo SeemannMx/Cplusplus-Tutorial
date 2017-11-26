@@ -4,6 +4,10 @@
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o: ../MyTestClass.h
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o: MyTestClass.cpp
 
+CMakeFiles/C__Tutorial.dir/Selektor.cpp.o: ../Selektor.cpp
+CMakeFiles/C__Tutorial.dir/Selektor.cpp.o: ../Selektor.h
+
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../MyTestClass.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Selektor.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../main.cpp
 

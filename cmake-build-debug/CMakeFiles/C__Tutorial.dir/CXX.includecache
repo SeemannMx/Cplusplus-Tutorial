@@ -8,6 +8,14 @@
 
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
 
+/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp
+Selektor.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp
 ../MyTestClass.h
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
@@ -19,4 +27,6 @@ iostream
 -
 MyTestClass.h
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+Selektor.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
 

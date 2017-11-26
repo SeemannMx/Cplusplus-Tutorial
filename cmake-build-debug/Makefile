@@ -150,6 +150,33 @@ MyTestClass.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.s
 .PHONY : MyTestClass.cpp.s
 
+Selektor.o: Selektor.cpp.o
+
+.PHONY : Selektor.o
+
+# target to build an object file
+Selektor.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Selektor.cpp.o
+.PHONY : Selektor.cpp.o
+
+Selektor.i: Selektor.cpp.i
+
+.PHONY : Selektor.i
+
+# target to preprocess a source file
+Selektor.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Selektor.cpp.i
+.PHONY : Selektor.cpp.i
+
+Selektor.s: Selektor.cpp.s
+
+.PHONY : Selektor.s
+
+# target to generate assembly for a file
+Selektor.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Selektor.cpp.s
+.PHONY : Selektor.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... MyTestClass.o"
 	@echo "... MyTestClass.i"
 	@echo "... MyTestClass.s"
+	@echo "... Selektor.o"
+	@echo "... Selektor.i"
+	@echo "... Selektor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
