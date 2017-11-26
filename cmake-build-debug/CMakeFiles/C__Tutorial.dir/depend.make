@@ -17,10 +17,19 @@ CMakeFiles/C__Tutorial.dir/People.cpp.o: ../People.h
 CMakeFiles/C__Tutorial.dir/Selektor.cpp.o: ../Selektor.cpp
 CMakeFiles/C__Tutorial.dir/Selektor.cpp.o: ../Selektor.h
 
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../Birthday.h
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../FriendsClass.h
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../MyTestClass.h
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../People.h
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../Selektor.h
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../ThisKeyWord.cpp
+CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../ThisKeyWord.h
+
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Birthday.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../FriendsClass.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../MyTestClass.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../People.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Selektor.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../ThisKeyWord.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../main.cpp
 

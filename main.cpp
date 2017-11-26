@@ -5,6 +5,7 @@
 #include "Birthday.h"
 #include "People.h"
 #include "FriendsClass.h"
+#include "ThisKeyWord.h"
 
 // using standard library
 using namespace std;
@@ -47,6 +48,10 @@ void constantTest();
 void composition();
 
 void createFriend();
+
+void thisKeyWord();
+
+void operatorOverloading();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -184,6 +189,12 @@ int main() {
     // 48. keyword: friend
         createFriend();
 
+    // 49. keyword: this
+        thisKeyWord();
+
+    // 50. Operator Overloading (continue)
+    // https://www.youtube.com/watch?v=PgGhEovFhd0&index=50&list=PLAE85DE8440AA6B83
+        operatorOverloading();
 
 
     // on end of main, all deconstructors for all objects are called
@@ -532,6 +543,20 @@ void createFriend(){
     privateFunction(myFriend);
 
     cout << "\n" << endl;
+
+}
+
+void thisKeyWord(){
+    cout << " 49. keyword: this \n ----------------------------" << endl;
+
+    ThisKeyWord thisKeyWord(10);
+
+    thisKeyWord.printVar();
+    cout << "\n" << endl;
+};
+
+void operatorOverloading(){
+
 
 }
 

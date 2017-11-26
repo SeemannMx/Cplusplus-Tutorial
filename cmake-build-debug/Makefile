@@ -258,6 +258,33 @@ Selektor.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Selektor.cpp.s
 .PHONY : Selektor.cpp.s
 
+ThisKeyWord.o: ThisKeyWord.cpp.o
+
+.PHONY : ThisKeyWord.o
+
+# target to build an object file
+ThisKeyWord.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o
+.PHONY : ThisKeyWord.cpp.o
+
+ThisKeyWord.i: ThisKeyWord.cpp.i
+
+.PHONY : ThisKeyWord.i
+
+# target to preprocess a source file
+ThisKeyWord.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.i
+.PHONY : ThisKeyWord.cpp.i
+
+ThisKeyWord.s: ThisKeyWord.cpp.s
+
+.PHONY : ThisKeyWord.s
+
+# target to generate assembly for a file
+ThisKeyWord.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.s
+.PHONY : ThisKeyWord.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -309,6 +336,9 @@ help:
 	@echo "... Selektor.o"
 	@echo "... Selektor.i"
 	@echo "... Selektor.s"
+	@echo "... ThisKeyWord.o"
+	@echo "... ThisKeyWord.i"
+	@echo "... ThisKeyWord.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
