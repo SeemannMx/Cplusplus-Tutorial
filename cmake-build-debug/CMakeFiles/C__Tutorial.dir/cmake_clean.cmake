@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__Tutorial.dir/main.cpp.o"
   "CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o"
   "CMakeFiles/C__Tutorial.dir/Selektor.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/Birthday.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/People.cpp.o"
   "C__Tutorial.pdb"
   "C__Tutorial"
 )

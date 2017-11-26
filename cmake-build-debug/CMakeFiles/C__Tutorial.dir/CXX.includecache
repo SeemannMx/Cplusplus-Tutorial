@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.cpp
+iostream
+-
+Birthday.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/People.cpp
+People.h
+/Users/tkallinich/CLionProjects/C++Tutorial/People.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/People.h
+Birthday.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
+string
+-
+iostream
+-
 
 /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp
 Selektor.h
@@ -29,4 +51,8 @@ MyTestClass.h
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
 Selektor.h
 /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
+Birthday.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
+People.h
+/Users/tkallinich/CLionProjects/C++Tutorial/People.h
 

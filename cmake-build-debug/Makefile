@@ -123,6 +123,33 @@ C__Tutorial/fast:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/build
 .PHONY : C__Tutorial/fast
 
+Birthday.o: Birthday.cpp.o
+
+.PHONY : Birthday.o
+
+# target to build an object file
+Birthday.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Birthday.cpp.o
+.PHONY : Birthday.cpp.o
+
+Birthday.i: Birthday.cpp.i
+
+.PHONY : Birthday.i
+
+# target to preprocess a source file
+Birthday.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Birthday.cpp.i
+.PHONY : Birthday.cpp.i
+
+Birthday.s: Birthday.cpp.s
+
+.PHONY : Birthday.s
+
+# target to generate assembly for a file
+Birthday.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Birthday.cpp.s
+.PHONY : Birthday.cpp.s
+
 MyTestClass.o: MyTestClass.cpp.o
 
 .PHONY : MyTestClass.o
@@ -149,6 +176,33 @@ MyTestClass.s: MyTestClass.cpp.s
 MyTestClass.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.s
 .PHONY : MyTestClass.cpp.s
+
+People.o: People.cpp.o
+
+.PHONY : People.o
+
+# target to build an object file
+People.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/People.cpp.o
+.PHONY : People.cpp.o
+
+People.i: People.cpp.i
+
+.PHONY : People.i
+
+# target to preprocess a source file
+People.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/People.cpp.i
+.PHONY : People.cpp.i
+
+People.s: People.cpp.s
+
+.PHONY : People.s
+
+# target to generate assembly for a file
+People.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/People.cpp.s
+.PHONY : People.cpp.s
 
 Selektor.o: Selektor.cpp.o
 
@@ -213,9 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C__Tutorial"
+	@echo "... Birthday.o"
+	@echo "... Birthday.i"
+	@echo "... Birthday.s"
 	@echo "... MyTestClass.o"
 	@echo "... MyTestClass.i"
 	@echo "... MyTestClass.s"
+	@echo "... People.o"
+	@echo "... People.i"
+	@echo "... People.s"
 	@echo "... Selektor.o"
 	@echo "... Selektor.i"
 	@echo "... Selektor.s"

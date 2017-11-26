@@ -2,6 +2,8 @@
 #include <iostream>
 #include "MyTestClass.h"
 #include "Selektor.h"
+#include "Birthday.h"
+#include "People.h"
 
 // using standard library
 using namespace std;
@@ -40,6 +42,8 @@ void getSelektor();
 void deConstructorTest();
 
 void constantTest();
+
+void composition();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -170,6 +174,9 @@ int main() {
 
     // 44. constant objects / functions
         constantTest();
+
+    // 46. composition
+        composition();
 
     // on end of main, all deconstructors for all objects are called
     return 0;
@@ -489,6 +496,16 @@ void constantTest(){
 
     cout << "\n" << endl;
 
+}
+
+void composition(){
+    cout << " 46. composition \n ----------------------------" << endl;
+
+    Birthday bd(10,5,1984);
+    People person("Tino", bd);
+    person.printInfo();
+
+    cout << "\n" << endl;
 
 }
 

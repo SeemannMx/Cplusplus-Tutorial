@@ -16,7 +16,7 @@ Selektor::Selektor(int varrr, int consttt) : variable(varrr), constVariable(cons
 // DeConstructor
 Selektor::~Selektor(){
 
-    cout << "deconstructor of Selector created" << endl;
+    // cout << "deconstructor of Selector created" << endl;
 
 }
 

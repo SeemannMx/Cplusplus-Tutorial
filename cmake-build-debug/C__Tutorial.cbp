@@ -82,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/People.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/People.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp">

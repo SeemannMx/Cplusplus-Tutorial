@@ -129,11 +129,61 @@ CMakeFiles/C__Tutorial.dir/Selektor.cpp.o.provides: CMakeFiles/C__Tutorial.dir/S
 CMakeFiles/C__Tutorial.dir/Selektor.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/Selektor.cpp.o
 
 
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.o: ../Birthday.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C__Tutorial.dir/Birthday.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/Birthday.cpp.o -c /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.cpp
+
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/Birthday.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.cpp > CMakeFiles/C__Tutorial.dir/Birthday.cpp.i
+
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/Birthday.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.cpp -o CMakeFiles/C__Tutorial.dir/Birthday.cpp.s
+
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.requires:
+
+.PHONY : CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.requires
+
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.provides: CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.provides.build
+.PHONY : CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.provides
+
+CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/Birthday.cpp.o
+
+
+CMakeFiles/C__Tutorial.dir/People.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
+CMakeFiles/C__Tutorial.dir/People.cpp.o: ../People.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/C__Tutorial.dir/People.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/People.cpp.o -c /Users/tkallinich/CLionProjects/C++Tutorial/People.cpp
+
+CMakeFiles/C__Tutorial.dir/People.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/People.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkallinich/CLionProjects/C++Tutorial/People.cpp > CMakeFiles/C__Tutorial.dir/People.cpp.i
+
+CMakeFiles/C__Tutorial.dir/People.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/People.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkallinich/CLionProjects/C++Tutorial/People.cpp -o CMakeFiles/C__Tutorial.dir/People.cpp.s
+
+CMakeFiles/C__Tutorial.dir/People.cpp.o.requires:
+
+.PHONY : CMakeFiles/C__Tutorial.dir/People.cpp.o.requires
+
+CMakeFiles/C__Tutorial.dir/People.cpp.o.provides: CMakeFiles/C__Tutorial.dir/People.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/People.cpp.o.provides.build
+.PHONY : CMakeFiles/C__Tutorial.dir/People.cpp.o.provides
+
+CMakeFiles/C__Tutorial.dir/People.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/People.cpp.o
+
+
 # Object files for target C__Tutorial
 C__Tutorial_OBJECTS = \
 "CMakeFiles/C__Tutorial.dir/main.cpp.o" \
 "CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o" \
-"CMakeFiles/C__Tutorial.dir/Selektor.cpp.o"
+"CMakeFiles/C__Tutorial.dir/Selektor.cpp.o" \
+"CMakeFiles/C__Tutorial.dir/Birthday.cpp.o" \
+"CMakeFiles/C__Tutorial.dir/People.cpp.o"
 
 # External object files for target C__Tutorial
 C__Tutorial_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ C__Tutorial_EXTERNAL_OBJECTS =
 C__Tutorial: CMakeFiles/C__Tutorial.dir/main.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/Selektor.cpp.o
+C__Tutorial: CMakeFiles/C__Tutorial.dir/Birthday.cpp.o
+C__Tutorial: CMakeFiles/C__Tutorial.dir/People.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/build.make
 C__Tutorial: CMakeFiles/C__Tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C__Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable C__Tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C__Tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/C__Tutorial.dir/build: C__Tutorial
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/main.cpp.o.requires
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o.requires
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/Selektor.cpp.o.requires
+CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/Birthday.cpp.o.requires
+CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/People.cpp.o.requires
 
 .PHONY : CMakeFiles/C__Tutorial.dir/requires
 
