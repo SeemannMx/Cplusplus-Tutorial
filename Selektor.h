@@ -9,12 +9,18 @@
 class Selektor {
     public:
     // constructor
-    Selektor();
+    Selektor(int variable, int constVariabel);
     // deconstructor
     ~Selektor();
 
     void doSomething();
     void doConstantSomething() const;
+    void print();
+
+
+    private:
+        int variable;
+        const int constVariable;
 };
 
 

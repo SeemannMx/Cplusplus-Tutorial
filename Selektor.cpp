@@ -6,8 +6,8 @@
 #include <iostream>
 using namespace std;
 
-// Constructor
-Selektor::Selektor(){
+// Constructor / members
+Selektor::Selektor(int varrr, int consttt) : variable(varrr), constVariable(consttt){
 
         cout << "constructor of Selector created" << endl;
 
@@ -26,4 +26,11 @@ void Selektor::doSomething(){
 
 void Selektor::doConstantSomething()const{
     cout << "selektor s- do constant something" << endl;
+}
+
+void Selektor::print(){
+    cout << "varrr: \t\t" << variable <<endl;
+    cout << "consttt: \t" << constVariable <<endl;
+
+
 }

@@ -454,7 +454,7 @@ void getSelektor(){
     cout << " 42. selection operator \n ----------------------------" << endl;
 
     // call function from object with dot operator
-    Selektor mySelektor;
+    Selektor mySelektor(3,6);
     mySelektor.doSomething();
 
     //make a pointer to SelektorClass
@@ -469,7 +469,7 @@ void getSelektor(){
 void deConstructorTest(){
     cout << " 43. constructor / deconstructor \n ----------------------------" << endl;
 
-    Selektor selektor;
+    Selektor selektor(3,5);
     cout << "test selector" << endl;
 
     cout << "\n" << endl;
@@ -477,12 +477,15 @@ void deConstructorTest(){
 }
 
 void constantTest(){
-    cout << " 44. constant objects / functions \n ----------------------------" << endl;
+    cout << " 44. constant objects / functions / members \n ----------------------------" << endl;
 
-    const Selektor mySelectConstant;
+    const Selektor mySelectConstant(2, 4);
     mySelectConstant.doConstantSomething();
 
     cout << "constant object test \n" << endl;
+
+    Selektor memberTest(3,5);
+    memberTest.print();
 
     cout << "\n" << endl;
 
