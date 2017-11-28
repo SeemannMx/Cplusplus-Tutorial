@@ -420,6 +420,33 @@ Selektor.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Selektor.cpp.s
 .PHONY : Selektor.cpp.s
 
+TempleateClass.o: TempleateClass.cpp.o
+
+.PHONY : TempleateClass.o
+
+# target to build an object file
+TempleateClass.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/TempleateClass.cpp.o
+.PHONY : TempleateClass.cpp.o
+
+TempleateClass.i: TempleateClass.cpp.i
+
+.PHONY : TempleateClass.i
+
+# target to preprocess a source file
+TempleateClass.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/TempleateClass.cpp.i
+.PHONY : TempleateClass.cpp.i
+
+TempleateClass.s: TempleateClass.cpp.s
+
+.PHONY : TempleateClass.s
+
+# target to generate assembly for a file
+TempleateClass.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/TempleateClass.cpp.s
+.PHONY : TempleateClass.cpp.s
+
 ThisKeyWord.o: ThisKeyWord.cpp.o
 
 .PHONY : ThisKeyWord.o
@@ -516,6 +543,9 @@ help:
 	@echo "... Selektor.o"
 	@echo "... Selektor.i"
 	@echo "... Selektor.s"
+	@echo "... TempleateClass.o"
+	@echo "... TempleateClass.i"
+	@echo "... TempleateClass.s"
 	@echo "... ThisKeyWord.o"
 	@echo "... ThisKeyWord.i"
 	@echo "... ThisKeyWord.s"

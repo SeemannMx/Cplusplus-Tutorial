@@ -39,6 +39,9 @@ CMakeFiles/C__Tutorial.dir/People.cpp.o
 CMakeFiles/C__Tutorial.dir/Selektor.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp
  /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
+CMakeFiles/C__Tutorial.dir/TempleateClass.cpp.o
+ /Users/tkallinich/CLionProjects/C++Tutorial/TempleateClass.cpp
+ /Users/tkallinich/CLionProjects/C++Tutorial/TempleateClass.h
 CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
  /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
@@ -59,5 +62,6 @@ CMakeFiles/C__Tutorial.dir/main.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
  /Users/tkallinich/CLionProjects/C++Tutorial/People.h
  /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/TempleateClass.h
  /Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.h
  /Users/tkallinich/CLionProjects/C++Tutorial/main.cpp

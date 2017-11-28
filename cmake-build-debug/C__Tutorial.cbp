@@ -145,6 +145,12 @@
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/TempleateClass.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/TempleateClass.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>

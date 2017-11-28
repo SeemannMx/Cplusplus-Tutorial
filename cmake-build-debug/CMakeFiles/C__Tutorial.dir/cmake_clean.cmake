@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__Tutorial.dir/Enemy.cpp.o"
   "CMakeFiles/C__Tutorial.dir/Ninja.cpp.o"
   "CMakeFiles/C__Tutorial.dir/Monster.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/TempleateClass.cpp.o"
   "C__Tutorial.pdb"
   "C__Tutorial"
 )

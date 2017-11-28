@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/People.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/People.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/Selektor.cpp.o"
+  "/Users/tkallinich/CLionProjects/C++Tutorial/TempleateClass.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/TempleateClass.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/main.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/main.cpp.o"
   )

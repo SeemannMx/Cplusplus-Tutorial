@@ -5,7 +5,7 @@
 #ifndef C_TUTORIAL_ENEMY_H
 #define C_TUTORIAL_ENEMY_H
 
-// an abstarct class is a class with min one virtual function in it
+// an abstarct class is a class with min one pure virtual function in it
 
 class Enemy {
 

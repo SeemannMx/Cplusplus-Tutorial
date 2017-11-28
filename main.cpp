@@ -11,6 +11,7 @@
 #include "DerivedClass.h"
 #include "Ninja.h"
 #include "Monster.h"
+#include "TempleateClass.h"
 
 // using standard library
 using namespace std;
@@ -51,6 +52,11 @@ void polymorphism();
 void virtualFunctions();
 
 void abstarctClasses();
+
+void functionTemplate();
+
+template<class myType>
+myType addmyType(myType a, myType b) ;
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -206,6 +212,9 @@ int main() {
 
     // 57. abstarctClasses
         abstarctClasses();
+
+    // 58. function templates
+        functionTemplate();
 
     // updated git repo (due to rename) origin set to new url
     // on end of main, all deconstructors for all objects are called
@@ -664,4 +673,32 @@ void abstarctClasses(){
 
     cout << "\n" << endl;
 
+}
+
+void functionTemplate(){
+    cout << " 58. function templates \n ----------------------------" << endl;
+
+    TempleateClass myTemplateClass;
+    myTemplateClass.addInt(1,1);
+    myTemplateClass.addFloat(1.1,1.1);
+    myTemplateClass.addLong(1024, 100000024);
+
+    cout << "\n" << endl;
+
+    addmyType(1,1);
+    addmyType(10.1, 10.1);
+
+    cout << "\n" << endl;
+
+}
+
+// generic type definition to call one function instead of many cause of, definition
+// of a new type which is a place holder like "E" in Java
+template<class myType>
+myType addmyType(myType a, myType b) {
+    myType z = a + b;
+
+    cout << "myType: \t a + b = " << z << endl;
+
+    return z;
 }
