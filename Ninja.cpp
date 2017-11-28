@@ -19,3 +19,10 @@ void Ninja::fatalityAttack() {
     cout << "Ninja !\t\t\t HardAttack "<< fatalityAttackPower <<endl;
 
 }
+
+void Ninja::implementMe() {
+
+    cout << "NinjaClass - override the pure virtual function implementMe() = 0" <<endl;
+
+
+}

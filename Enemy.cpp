@@ -14,7 +14,11 @@ void Enemy::setAttackPower(int power) {
 
 }
 
-void Enemy::fatalityAttack() {}
+void Enemy::fatalityAttack() {
+
+    cout << "Enemy !\t\t\t HardAttack "<< fatalityAttackPower <<endl;
+
+}
 
 void Enemy::setFatalityAttackPower(int power) {
     fatalityAttackPower = power;

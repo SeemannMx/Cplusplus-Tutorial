@@ -13,6 +13,7 @@ class Monster: public Enemy {
 public:
     void attack();
     void fatalityAttack() override;
+    void implementMe() override;
 };
 
 

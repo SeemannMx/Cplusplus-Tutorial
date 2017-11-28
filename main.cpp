@@ -50,6 +50,8 @@ void polymorphism();
 
 void virtualFunctions();
 
+void abstarctClasses();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -201,6 +203,9 @@ int main() {
 
     // 56. virtual functions
        virtualFunctions();
+
+    // 57. abstarctClasses
+        abstarctClasses();
 
     // updated git repo (due to rename) origin set to new url
     // on end of main, all deconstructors for all objects are called
@@ -640,6 +645,23 @@ void virtualFunctions(){
 
     cout << "\n" << endl;
 
+}
 
+void abstarctClasses(){
+    cout << " 57. abstract classes \n ----------------------------" << endl;
+
+    Ninja ninja;
+    Enemy *enemyNinja = &ninja;
+    enemyNinja->setFatalityAttackPower(15);         // function is virtual, with option of override
+    enemyNinja->fatalityAttack();
+
+    Monster monster;
+    Enemy *enemyMonster = & monster;
+    enemyMonster->setFatalityAttackPower(25);       // function is virtual, with option of override
+    enemyMonster->fatalityAttack();
+
+    // pure virtual functions have no implementations, they only require derived objects to override them
+
+    cout << "\n" << endl;
 
 }
