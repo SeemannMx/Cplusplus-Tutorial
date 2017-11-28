@@ -12,6 +12,7 @@ class Ninja: public Enemy {
 
 public:
     void attack ();
+    void fatalityAttack() override;
 
 };
 

@@ -17,5 +17,6 @@ DerivedClass::DerivedClass() {
 DerivedClass::~DerivedClass() {
 
     cout << "Derived class de - constructor" << endl;
+    cout << "\n" << endl;
 
 }

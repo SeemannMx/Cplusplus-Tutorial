@@ -48,6 +48,8 @@ void operatorOverloading();
 void derivedConstrAndDeKonst();
 void polymorphism();
 
+void virtualFunctions();
+
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
 class MyClass{
@@ -196,6 +198,9 @@ int main() {
 
     // 55. polymorphism
         polymorphism();
+
+    // 56. virtual functions
+       virtualFunctions();
 
     // updated git repo (due to rename) origin set to new url
     // on end of main, all deconstructors for all objects are called
@@ -592,9 +597,10 @@ void polymorphism(){
     Ninja ninja;
     Monster monster;
 
-    Enemy *enemy1 = &ninja;
-    Enemy *enemy2 = &monster;
-
+    Enemy *enemy1 = &ninja;         // because ninja is of type enemy, this is valid
+    Enemy *enemy2 = &monster;       // anything that an enemy can can do, monster can do
+                                    // ninja is a more specific type of enemy
+                                    // every enemy has setAttakpower implemented
     // is a ninja enemy
     enemy1->setAttackPower(10);
 
@@ -609,5 +615,31 @@ void polymorphism(){
     monster.attack();
 
     cout << "\n" << endl;
+
+}
+
+void virtualFunctions(){
+    cout << " 56. virtual functions \n ----------------------------" << endl;
+
+    Ninja ninja;
+    Monster monster;
+
+    Enemy *enemy1 = &ninja;
+    Enemy *enemy2 = &monster;
+
+
+    ninja.setFatalityAttackPower(10000);
+    monster.setFatalityAttackPower(200);
+
+    ninja.fatalityAttack();         // use function from class Ninja / Monster
+    monster.fatalityAttack();
+
+    enemy1->fatalityAttack();       // call function from class Enemy which is virtual
+    enemy2->fatalityAttack();       // this results in a call of a call of Ninja / Monster call
+                                    // call function via backdoor from BaseClass
+
+    cout << "\n" << endl;
+
+
 
 }

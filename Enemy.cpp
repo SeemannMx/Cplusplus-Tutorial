@@ -13,3 +13,10 @@ void Enemy::setAttackPower(int power) {
     attackPower = power;
 
 }
+
+void Enemy::fatalityAttack() {}
+
+void Enemy::setFatalityAttackPower(int power) {
+    fatalityAttackPower = power;
+
+}

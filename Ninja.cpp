@@ -13,3 +13,9 @@ void Ninja::attack() {
     cout << "I am a ninja,\t\t my attack power is: "<< attackPower <<endl;
 
 }
+
+void Ninja::fatalityAttack() {
+
+    cout << "Ninja !\t\t\t HardAttack "<< fatalityAttackPower <<endl;
+
+}

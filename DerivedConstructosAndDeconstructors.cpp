@@ -16,4 +16,5 @@ DerivedConstructosAndDeconstructors::DerivedConstructosAndDeconstructors() {
 
 DerivedConstructosAndDeconstructors::~DerivedConstructosAndDeconstructors() {
     cout <<"Base class De - Constructor "<< endl;
+    cout << "\n" << endl;
 }

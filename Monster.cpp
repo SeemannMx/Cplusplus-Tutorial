@@ -13,3 +13,10 @@ void Monster::attack() {
 
 
 }
+
+void Monster::fatalityAttack() {
+
+    cout << "Monster !\t\t HardAttack "<< fatalityAttackPower <<endl;
+
+
+}
