@@ -14,6 +14,24 @@ Birthday.h
 
 /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
 
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.cpp
+DerivedClass.h
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.h
+DerivedConstructosAndDeconstructors.h
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.cpp
+DerivedConstructosAndDeconstructors.h
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp
 iostream
 -
@@ -97,4 +115,8 @@ ThisKeyWord.h
 /Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.h
 OperatorTest.h
 /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
+DerivedConstructosAndDeconstructors.h
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
+DerivedClass.h
+/Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.h
 

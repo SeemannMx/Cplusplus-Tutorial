@@ -4,6 +4,13 @@
 CMakeFiles/C__Tutorial.dir/Birthday.cpp.o: ../Birthday.cpp
 CMakeFiles/C__Tutorial.dir/Birthday.cpp.o: ../Birthday.h
 
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o: ../DerivedClass.cpp
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o: ../DerivedClass.h
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o: ../DerivedConstructosAndDeconstructors.h
+
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o: ../DerivedConstructosAndDeconstructors.cpp
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o: ../DerivedConstructosAndDeconstructors.h
+
 CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o: ../FriendsClass.cpp
 CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o: ../FriendsClass.h
 
@@ -30,6 +37,8 @@ CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../ThisKeyWord.cpp
 CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../ThisKeyWord.h
 
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Birthday.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../DerivedClass.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../DerivedConstructosAndDeconstructors.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../FriendsClass.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../MyTestClass.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../OperatorTest.h

@@ -249,6 +249,54 @@ CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o.provides: CMakeFiles/C__Tutorial.d
 CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o
 
 
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o: ../DerivedConstructosAndDeconstructors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o -c /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.cpp
+
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.cpp > CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.i
+
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.cpp -o CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.s
+
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.requires:
+
+.PHONY : CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.requires
+
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.provides: CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.provides.build
+.PHONY : CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.provides
+
+CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o
+
+
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o: ../DerivedClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o -c /Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.cpp
+
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.cpp > CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.i
+
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.cpp -o CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.s
+
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.requires:
+
+.PHONY : CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.requires
+
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.provides: CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.provides.build
+.PHONY : CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.provides
+
+CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o
+
+
 # Object files for target C__Tutorial
 C__Tutorial_OBJECTS = \
 "CMakeFiles/C__Tutorial.dir/main.cpp.o" \
@@ -258,7 +306,9 @@ C__Tutorial_OBJECTS = \
 "CMakeFiles/C__Tutorial.dir/People.cpp.o" \
 "CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o" \
 "CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o" \
-"CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o"
+"CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o" \
+"CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o" \
+"CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o"
 
 # External object files for target C__Tutorial
 C__Tutorial_EXTERNAL_OBJECTS =
@@ -271,9 +321,11 @@ C__Tutorial: CMakeFiles/C__Tutorial.dir/People.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o
+C__Tutorial: CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o
+C__Tutorial: CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/build.make
 C__Tutorial: CMakeFiles/C__Tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable C__Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable C__Tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C__Tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +341,8 @@ CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/People.cpp.o.req
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o.requires
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o.requires
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o.requires
+CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o.requires
+CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o.requires
 
 .PHONY : CMakeFiles/C__Tutorial.dir/requires
 

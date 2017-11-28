@@ -88,6 +88,18 @@
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>

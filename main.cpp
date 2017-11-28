@@ -7,9 +7,15 @@
 #include "FriendsClass.h"
 #include "ThisKeyWord.h"
 #include "OperatorTest.h"
+#include "DerivedConstructosAndDeconstructors.h"
+#include "DerivedClass.h"
 
 // using standard library
 using namespace std;
+
+// dived by size of one element depending of size of element it will
+// correct number of elements in array
+int getSizeOfArray(double inputArray[]);
 
 // declaration (prototyping) of functions on top
 void cOutTest();
@@ -21,38 +27,24 @@ void callExternalClass();
 void cInAndLoopTest();
 void sentinelControlledProgramm();
 void workWithArray();
-
-// overload functions
 void callMyClass();
 void callMyClass(string testString);
 void printNumber(int a);
 void printNumber(float b);
 void printPassedArray(int inputArray[], int size);
 void printPassedArray(float inputArray[], int size);
-
 void pointerExcersise();
-
 void sizeOfCheck();
-
-// dived by size of one element depending of size of element it will
-// correct number of elements in array
-int getSizeOfArray(double inputArray[]);
-
 void mathPointer();
-
 void getSelektor();
-
 void deConstructorTest();
-
 void constantTest();
-
 void composition();
-
 void createFriend();
-
 void thisKeyWord();
-
 void operatorOverloading();
+
+void derivedConstrAndDeKonst();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -196,6 +188,9 @@ int main() {
     // 50. Operator Overloading (continue)
     // https://www.youtube.com/watch?v=PgGhEovFhd0&index=50&list=PLAE85DE8440AA6B83
         operatorOverloading();
+
+    // 54. derived Constructors / Dekonstructors
+        derivedConstrAndDeKonst();
 
     // updated git repo (due to rename) origin set to new url
     // on end of main, all deconstructors for all objects are called
@@ -574,3 +569,14 @@ void operatorOverloading() {
 
 }
 
+void derivedConstrAndDeKonst(){
+    cout << " 54. derived constructors and deconstructors \n ----------------------------" << endl;
+
+    // call constructor of BaseClass
+    // DerivedConstructosAndDeconstructors myBaseClass;
+
+    // call constructor of 1.BaseClass and than 2. DerivedClass
+    DerivedClass myDerivedClass;
+
+    cout << "\n" << endl;
+}

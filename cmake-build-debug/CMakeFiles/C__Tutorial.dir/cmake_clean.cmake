@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o"
   "CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o"
   "CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o"
   "C__Tutorial.pdb"
   "C__Tutorial"
 )

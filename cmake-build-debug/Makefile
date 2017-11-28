@@ -150,6 +150,60 @@ Birthday.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Birthday.cpp.s
 .PHONY : Birthday.cpp.s
 
+DerivedClass.o: DerivedClass.cpp.o
+
+.PHONY : DerivedClass.o
+
+# target to build an object file
+DerivedClass.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o
+.PHONY : DerivedClass.cpp.o
+
+DerivedClass.i: DerivedClass.cpp.i
+
+.PHONY : DerivedClass.i
+
+# target to preprocess a source file
+DerivedClass.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.i
+.PHONY : DerivedClass.cpp.i
+
+DerivedClass.s: DerivedClass.cpp.s
+
+.PHONY : DerivedClass.s
+
+# target to generate assembly for a file
+DerivedClass.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.s
+.PHONY : DerivedClass.cpp.s
+
+DerivedConstructosAndDeconstructors.o: DerivedConstructosAndDeconstructors.cpp.o
+
+.PHONY : DerivedConstructosAndDeconstructors.o
+
+# target to build an object file
+DerivedConstructosAndDeconstructors.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o
+.PHONY : DerivedConstructosAndDeconstructors.cpp.o
+
+DerivedConstructosAndDeconstructors.i: DerivedConstructosAndDeconstructors.cpp.i
+
+.PHONY : DerivedConstructosAndDeconstructors.i
+
+# target to preprocess a source file
+DerivedConstructosAndDeconstructors.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.i
+.PHONY : DerivedConstructosAndDeconstructors.cpp.i
+
+DerivedConstructosAndDeconstructors.s: DerivedConstructosAndDeconstructors.cpp.s
+
+.PHONY : DerivedConstructosAndDeconstructors.s
+
+# target to generate assembly for a file
+DerivedConstructosAndDeconstructors.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.s
+.PHONY : DerivedConstructosAndDeconstructors.cpp.s
+
 FriendsClass.o: FriendsClass.cpp.o
 
 .PHONY : FriendsClass.o
@@ -351,6 +405,12 @@ help:
 	@echo "... Birthday.o"
 	@echo "... Birthday.i"
 	@echo "... Birthday.s"
+	@echo "... DerivedClass.o"
+	@echo "... DerivedClass.i"
+	@echo "... DerivedClass.s"
+	@echo "... DerivedConstructosAndDeconstructors.o"
+	@echo "... DerivedConstructosAndDeconstructors.i"
+	@echo "... DerivedConstructosAndDeconstructors.s"
 	@echo "... FriendsClass.o"
 	@echo "... FriendsClass.i"
 	@echo "... FriendsClass.s"
