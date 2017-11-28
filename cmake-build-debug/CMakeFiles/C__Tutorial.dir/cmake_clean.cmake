@@ -9,6 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o"
   "CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o"
   "CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/Enemy.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/Ninja.cpp.o"
+  "CMakeFiles/C__Tutorial.dir/Monster.cpp.o"
   "C__Tutorial.pdb"
   "C__Tutorial"
 )

@@ -9,6 +9,8 @@
 #include "OperatorTest.h"
 #include "DerivedConstructosAndDeconstructors.h"
 #include "DerivedClass.h"
+#include "Ninja.h"
+#include "Monster.h"
 
 // using standard library
 using namespace std;
@@ -28,7 +30,7 @@ void cInAndLoopTest();
 void sentinelControlledProgramm();
 void workWithArray();
 void callMyClass();
-void callMyClass(string testString);
+void callMyClass(string);
 void printNumber(int a);
 void printNumber(float b);
 void printPassedArray(int inputArray[], int size);
@@ -43,8 +45,8 @@ void composition();
 void createFriend();
 void thisKeyWord();
 void operatorOverloading();
-
 void derivedConstrAndDeKonst();
+void polymorphism();
 
 // classes shuld be in header file or above main cause main needs to know it's classes
 // create Class with one public function
@@ -191,6 +193,9 @@ int main() {
 
     // 54. derived Constructors / Dekonstructors
         derivedConstrAndDeKonst();
+
+    // 55. polymorphism
+        polymorphism();
 
     // updated git repo (due to rename) origin set to new url
     // on end of main, all deconstructors for all objects are called
@@ -579,4 +584,30 @@ void derivedConstrAndDeKonst(){
     DerivedClass myDerivedClass;
 
     cout << "\n" << endl;
+}
+
+void polymorphism(){
+    cout << " 55. polymorphism \n ----------------------------" << endl;
+
+    Ninja ninja;
+    Monster monster;
+
+    Enemy *enemy1 = &ninja;
+    Enemy *enemy2 = &monster;
+
+    // is a ninja enemy
+    enemy1->setAttackPower(10);
+
+    // is monster enemy
+    enemy2->setAttackPower(20);
+
+    // easy way to value to objects derived class
+    // ninja.setAttackPower(116);
+    // monster.setAttackPower(12);
+
+    ninja.attack();
+    monster.attack();
+
+    cout << "\n" << endl;
+
 }

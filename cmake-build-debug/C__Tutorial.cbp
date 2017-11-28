@@ -100,13 +100,31 @@
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Monster.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Monster.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Ninja.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/Ninja.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp">

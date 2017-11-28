@@ -32,6 +32,14 @@ iostream
 
 /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
 
+/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.cpp
+Enemy.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp
 iostream
 -
@@ -40,7 +48,27 @@ FriendsClass.h
 
 /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
 
+/Users/tkallinich/CLionProjects/C++Tutorial/Monster.cpp
+Monster.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Monster.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/Monster.h
+Enemy.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/Ninja.cpp
+Ninja.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Ninja.h
+iostream
+-
+
+/Users/tkallinich/CLionProjects/C++Tutorial/Ninja.h
+Enemy.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
 
 /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp
 OperatorTest.h
@@ -119,4 +147,8 @@ DerivedConstructosAndDeconstructors.h
 /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
 DerivedClass.h
 /Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.h
+Ninja.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Ninja.h
+Monster.h
+/Users/tkallinich/CLionProjects/C++Tutorial/Monster.h
 

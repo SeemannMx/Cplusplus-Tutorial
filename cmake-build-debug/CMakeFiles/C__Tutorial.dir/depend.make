@@ -11,11 +11,22 @@ CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o: ../DerivedConstructosAndDeconstru
 CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o: ../DerivedConstructosAndDeconstructors.cpp
 CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o: ../DerivedConstructosAndDeconstructors.h
 
+CMakeFiles/C__Tutorial.dir/Enemy.cpp.o: ../Enemy.cpp
+CMakeFiles/C__Tutorial.dir/Enemy.cpp.o: ../Enemy.h
+
 CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o: ../FriendsClass.cpp
 CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o: ../FriendsClass.h
 
+CMakeFiles/C__Tutorial.dir/Monster.cpp.o: ../Enemy.h
+CMakeFiles/C__Tutorial.dir/Monster.cpp.o: ../Monster.cpp
+CMakeFiles/C__Tutorial.dir/Monster.cpp.o: ../Monster.h
+
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o: ../MyTestClass.h
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o: MyTestClass.cpp
+
+CMakeFiles/C__Tutorial.dir/Ninja.cpp.o: ../Enemy.h
+CMakeFiles/C__Tutorial.dir/Ninja.cpp.o: ../Ninja.cpp
+CMakeFiles/C__Tutorial.dir/Ninja.cpp.o: ../Ninja.h
 
 CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o: ../OperatorTest.cpp
 CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o: ../OperatorTest.h
@@ -39,8 +50,11 @@ CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../ThisKeyWord.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Birthday.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../DerivedClass.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../DerivedConstructosAndDeconstructors.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Enemy.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../FriendsClass.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Monster.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../MyTestClass.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Ninja.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../OperatorTest.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../People.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Selektor.h

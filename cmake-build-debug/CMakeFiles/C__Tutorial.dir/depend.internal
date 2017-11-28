@@ -11,12 +11,23 @@ CMakeFiles/C__Tutorial.dir/DerivedClass.cpp.o
 CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.cpp
  /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
+CMakeFiles/C__Tutorial.dir/Enemy.cpp.o
+ /Users/tkallinich/CLionProjects/C++Tutorial/Enemy.cpp
+ /Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
 CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp
  /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
+CMakeFiles/C__Tutorial.dir/Monster.cpp.o
+ /Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/Monster.cpp
+ /Users/tkallinich/CLionProjects/C++Tutorial/Monster.h
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
  /Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp
+CMakeFiles/C__Tutorial.dir/Ninja.cpp.o
+ /Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/Ninja.cpp
+ /Users/tkallinich/CLionProjects/C++Tutorial/Ninja.h
 CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp
  /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
@@ -40,8 +51,11 @@ CMakeFiles/C__Tutorial.dir/main.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
  /Users/tkallinich/CLionProjects/C++Tutorial/DerivedClass.h
  /Users/tkallinich/CLionProjects/C++Tutorial/DerivedConstructosAndDeconstructors.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/Enemy.h
  /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/Monster.h
  /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/Ninja.h
  /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
  /Users/tkallinich/CLionProjects/C++Tutorial/People.h
  /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h

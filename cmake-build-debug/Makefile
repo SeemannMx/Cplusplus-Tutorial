@@ -204,6 +204,33 @@ DerivedConstructosAndDeconstructors.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/DerivedConstructosAndDeconstructors.cpp.s
 .PHONY : DerivedConstructosAndDeconstructors.cpp.s
 
+Enemy.o: Enemy.cpp.o
+
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
 FriendsClass.o: FriendsClass.cpp.o
 
 .PHONY : FriendsClass.o
@@ -231,6 +258,33 @@ FriendsClass.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.s
 .PHONY : FriendsClass.cpp.s
 
+Monster.o: Monster.cpp.o
+
+.PHONY : Monster.o
+
+# target to build an object file
+Monster.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Monster.cpp.o
+.PHONY : Monster.cpp.o
+
+Monster.i: Monster.cpp.i
+
+.PHONY : Monster.i
+
+# target to preprocess a source file
+Monster.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Monster.cpp.i
+.PHONY : Monster.cpp.i
+
+Monster.s: Monster.cpp.s
+
+.PHONY : Monster.s
+
+# target to generate assembly for a file
+Monster.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Monster.cpp.s
+.PHONY : Monster.cpp.s
+
 MyTestClass.o: MyTestClass.cpp.o
 
 .PHONY : MyTestClass.o
@@ -257,6 +311,33 @@ MyTestClass.s: MyTestClass.cpp.s
 MyTestClass.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.s
 .PHONY : MyTestClass.cpp.s
+
+Ninja.o: Ninja.cpp.o
+
+.PHONY : Ninja.o
+
+# target to build an object file
+Ninja.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Ninja.cpp.o
+.PHONY : Ninja.cpp.o
+
+Ninja.i: Ninja.cpp.i
+
+.PHONY : Ninja.i
+
+# target to preprocess a source file
+Ninja.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Ninja.cpp.i
+.PHONY : Ninja.cpp.i
+
+Ninja.s: Ninja.cpp.s
+
+.PHONY : Ninja.s
+
+# target to generate assembly for a file
+Ninja.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/Ninja.cpp.s
+.PHONY : Ninja.cpp.s
 
 OperatorTest.o: OperatorTest.cpp.o
 
@@ -411,12 +492,21 @@ help:
 	@echo "... DerivedConstructosAndDeconstructors.o"
 	@echo "... DerivedConstructosAndDeconstructors.i"
 	@echo "... DerivedConstructosAndDeconstructors.s"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
 	@echo "... FriendsClass.o"
 	@echo "... FriendsClass.i"
 	@echo "... FriendsClass.s"
+	@echo "... Monster.o"
+	@echo "... Monster.i"
+	@echo "... Monster.s"
 	@echo "... MyTestClass.o"
 	@echo "... MyTestClass.i"
 	@echo "... MyTestClass.s"
+	@echo "... Ninja.o"
+	@echo "... Ninja.i"
+	@echo "... Ninja.s"
 	@echo "... OperatorTest.o"
 	@echo "... OperatorTest.i"
 	@echo "... OperatorTest.s"
