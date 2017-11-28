@@ -24,6 +24,16 @@ FriendsClass.h
 
 /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
 
+/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp
+OperatorTest.h
+/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
+iostream
+-
+ThisKeyWord.h
+/Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.h
+
+/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
+
 /Users/tkallinich/CLionProjects/C++Tutorial/People.cpp
 People.h
 /Users/tkallinich/CLionProjects/C++Tutorial/People.h
@@ -85,4 +95,6 @@ FriendsClass.h
 /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
 ThisKeyWord.h
 /Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.h
+OperatorTest.h
+/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
 

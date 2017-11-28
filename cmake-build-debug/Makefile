@@ -204,6 +204,33 @@ MyTestClass.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.s
 .PHONY : MyTestClass.cpp.s
 
+OperatorTest.o: OperatorTest.cpp.o
+
+.PHONY : OperatorTest.o
+
+# target to build an object file
+OperatorTest.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o
+.PHONY : OperatorTest.cpp.o
+
+OperatorTest.i: OperatorTest.cpp.i
+
+.PHONY : OperatorTest.i
+
+# target to preprocess a source file
+OperatorTest.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.i
+.PHONY : OperatorTest.cpp.i
+
+OperatorTest.s: OperatorTest.cpp.s
+
+.PHONY : OperatorTest.s
+
+# target to generate assembly for a file
+OperatorTest.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.s
+.PHONY : OperatorTest.cpp.s
+
 People.o: People.cpp.o
 
 .PHONY : People.o
@@ -330,6 +357,9 @@ help:
 	@echo "... MyTestClass.o"
 	@echo "... MyTestClass.i"
 	@echo "... MyTestClass.s"
+	@echo "... OperatorTest.o"
+	@echo "... OperatorTest.i"
+	@echo "... OperatorTest.s"
 	@echo "... People.o"
 	@echo "... People.i"
 	@echo "... People.s"

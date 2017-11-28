@@ -10,6 +10,10 @@ CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
  /Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp
+CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o
+ /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp
+ /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.h
 CMakeFiles/C__Tutorial.dir/People.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
  /Users/tkallinich/CLionProjects/C++Tutorial/People.cpp
@@ -29,6 +33,7 @@ CMakeFiles/C__Tutorial.dir/main.cpp.o
  /Users/tkallinich/CLionProjects/C++Tutorial/Birthday.h
  /Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.h
  /Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h
+ /Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h
  /Users/tkallinich/CLionProjects/C++Tutorial/People.h
  /Users/tkallinich/CLionProjects/C++Tutorial/Selektor.h
  /Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.h

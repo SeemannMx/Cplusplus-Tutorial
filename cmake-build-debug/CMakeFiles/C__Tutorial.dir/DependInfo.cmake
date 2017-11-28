@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tkallinich/CLionProjects/C++Tutorial/Birthday.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/Birthday.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/FriendsClass.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/MyTestClass.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o"
+  "/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/People.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/People.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/Selektor.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/Selektor.cpp.o"
   "/Users/tkallinich/CLionProjects/C++Tutorial/ThisKeyWord.cpp" "/Users/tkallinich/CLionProjects/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o"

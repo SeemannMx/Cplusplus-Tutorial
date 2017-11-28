@@ -6,6 +6,7 @@
 #include "People.h"
 #include "FriendsClass.h"
 #include "ThisKeyWord.h"
+#include "OperatorTest.h"
 
 // using standard library
 using namespace std;
@@ -555,8 +556,21 @@ void thisKeyWord(){
     cout << "\n" << endl;
 };
 
-void operatorOverloading(){
+void operatorOverloading() {
+    cout << " 51. operator overloading \n ----------------------------" << endl;
 
+    OperatorTest Number1(10);
+    OperatorTest Number2(20);
+
+    // call function OperatorClass "// opertor+()int)
+    OperatorTest Ergebnis = Number1 + Number2;
+    cout << "Zahl 1:   " << Number1.number << endl;
+    cout << "Zahl 2:   " << Number2.number << endl;
+    cout << "Opartor : " << " + " << endl;
+    cout << "\n";
+    cout << "\t" << Number1.number << " + " << Number2.number << " = " << Ergebnis.number << endl;
+
+    cout << "\n" << endl;
 
 }
 

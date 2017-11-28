@@ -97,6 +97,12 @@
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/MyTestClass.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/OperatorTest.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/tkallinich/CLionProjects/C++Tutorial/People.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>

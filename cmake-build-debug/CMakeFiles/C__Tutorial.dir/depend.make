@@ -10,6 +10,10 @@ CMakeFiles/C__Tutorial.dir/FriendsClass.cpp.o: ../FriendsClass.h
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o: ../MyTestClass.h
 CMakeFiles/C__Tutorial.dir/MyTestClass.cpp.o: MyTestClass.cpp
 
+CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o: ../OperatorTest.cpp
+CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o: ../OperatorTest.h
+CMakeFiles/C__Tutorial.dir/OperatorTest.cpp.o: ../ThisKeyWord.h
+
 CMakeFiles/C__Tutorial.dir/People.cpp.o: ../Birthday.h
 CMakeFiles/C__Tutorial.dir/People.cpp.o: ../People.cpp
 CMakeFiles/C__Tutorial.dir/People.cpp.o: ../People.h
@@ -28,6 +32,7 @@ CMakeFiles/C__Tutorial.dir/ThisKeyWord.cpp.o: ../ThisKeyWord.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Birthday.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../FriendsClass.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../MyTestClass.h
+CMakeFiles/C__Tutorial.dir/main.cpp.o: ../OperatorTest.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../People.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../Selektor.h
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../ThisKeyWord.h
