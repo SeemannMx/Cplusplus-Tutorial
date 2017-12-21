@@ -685,6 +685,7 @@ void functionTemplate(){
 
     cout << "\n" << endl;
 
+    // cannot move type function to external class
     addmyType(1,1);
     addmyType(10.1, 10.1);
 
