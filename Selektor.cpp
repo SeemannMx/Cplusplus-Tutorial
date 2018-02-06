@@ -22,6 +22,7 @@ Selektor::~Selektor(){
 
 void Selektor::doSomething(){
     cout << "selektor - do something" << endl;
+    print();
 }
 
 void Selektor::doConstantSomething()const{

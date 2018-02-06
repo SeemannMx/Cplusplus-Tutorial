@@ -590,7 +590,6 @@ void composition(){
 
 }
 
-
 void privateFunction(FriendsClass &friendsClass) {
     friendsClass.privateVar=24;
 
@@ -598,6 +597,7 @@ void privateFunction(FriendsClass &friendsClass) {
 
 }
 
+// friend function can be call everywhere but the need to be declared in resp Class
 void createFriend(){
     cout << " 48. keyword: friend \n ----------------------------" << endl;
 
