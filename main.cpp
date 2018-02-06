@@ -13,14 +13,10 @@
 #include "Monster.h"
 #include "TempleateClass.h"
 
-// using standard library
+// (standard library)
 using namespace std;
 
-// dived by size of one element depending of size of element it will
-// correct number of elements in array
-int getSizeOfArray(double inputArray[]);
-
-// declaration (prototyping) of functions on top
+// (prototyping) declaration of functions
 void cOutTest();
 void variablesTest();
 void ifElseTest();
@@ -48,27 +44,55 @@ void thisKeyWord();
 void operatorOverloading();
 void derivedConstrAndDeKonst();
 void polymorphism();
-
 void virtualFunctions();
-
 void abstarctClasses();
-
 void functionTemplate();
+int getSizeOfArray(double inputArray[]);
 
 template<class myType>
 myType addmyType(myType a, myType b) ;
 
-// classes shuld be in header file or above main cause main needs to know it's classes
+// Classes should be in header file or above main. Cause main needs to know it's classes
 // create Class with one public function
+
 class MyClass{
-private:
+    private:
+        // declared public varibale which could be set from outside
+        string testString;
+        // access specifier (private, proteced, public)
+        public:
+            // constructos
+            MyClass(){
+                cout << "test MyClass constructor" << endl;
+
+            }
+            // declared public function in MyClass
+            void testMyClass(){
+                cout << "test MyClass" << endl;
+            }
+            void printString(){
+                cout << "get testString to: \n" << "\t" << testString << endl;
+            }
+            void setTestString(string stringToSet){
+                testString = stringToSet;
+            }
+            string getString(){
+                printString();
+                return testString;
+            }
+    };
+
+class MyClassWithParam{
+    private:
     // declared public varibale which could be set from outside
     string testString;
     // access specifier (private, proteced, public)
     public:
         // constructos
-        MyClass(){
-            cout << "test MyClass constructor" << endl;
+        MyClassWithParam(string test){
+
+            cout << "test MyClassWithParam constructor" << endl;
+            setTestString(test);
 
         }
         // declared public function in MyClass
@@ -76,9 +100,10 @@ private:
             cout << "test MyClass" << endl;
         }
         void printString(){
-            cout << "get testString to: \n" << "\t" << testString << endl;
+            cout << "set testString to: " << "\t" << testString << endl;
         }
         void setTestString(string stringToSet){
+            cout << "set String:   \t\t"<< stringToSet << endl;
             testString = stringToSet;
         }
         string getString(){
@@ -87,41 +112,46 @@ private:
         }
 };
 
-class MyClassWithParam{
-private:
-    // declared public varibale which could be set from outside
-    string testString;
-    // access specifier (private, proteced, public)
-public:
-    // constructos
-   MyClassWithParam(string test){
 
-        cout << "test MyClassWithParam constructor" << endl;
-        setTestString(test);
+int cmp(char* s1, char* s2) {
+    cout << "S1: \t s1: " << s1 << endl;
+    cout << "S2: \t s2: " << s2 << endl;
 
+    cout << "*S1: \t s1: " << *s1 << endl;
+    cout << "*S2: \t s2: " << *s2 << endl;
+
+    while(*s1 == *s2) {
+
+        if(*s1 == '\0') {
+            cout << "return: 1" << endl;
+            return 1;
+        }
+        s1++;
+        s2++;
     }
-    // declared public function in MyClass
-    void testMyClass(){
-        cout << "test MyClass" << endl;
-    }
-    void printString(){
-        cout << "set testString to: " << "\t" << testString << endl;
-    }
-    void setTestString(string stringToSet){
-        cout << "set String:   \t\t"<< stringToSet << endl;
-        testString = stringToSet;
-    }
-    string getString(){
-        printString();
-        return testString;
-    }
-};
+    cout << "return: 0" << endl;
+    return 0;
+}
+
+int getStringPointer(char* s1) {
+    cout << " 0. getStringPointer \n ----------------------------" << endl;
+    cout << "getStringPointer *s1 : " << *s1 << endl;
+    cout << "getStringPointer s1  : " << s1 << endl;
+    cout << "getStringPointer &s1 : " << &s1 << endl;
+    cout << "getStringPointer s1[0] : " << s1[0] << endl;
+
+    cout << "\n" << endl;
+}
 /**
  * start main in C++ to start tutorial
  *
  * @return
  */
 int main() {
+
+    // 0. StringPointer
+        getStringPointer("Hello World");
+
     // 1. c out stream
         cOutTest();
 
@@ -215,6 +245,9 @@ int main() {
 
     // 58. function templates
         functionTemplate();
+
+    // 59. cmp
+    cmp("ha", "a");
 
     // updated git repo (due to rename) origin set to new url
     // on end of main, all deconstructors for all objects are called
@@ -440,17 +473,23 @@ void sizeOfCheck(){
     int i;
     double db;
     double myArray[10];
+    int myIntArray[10];
+
 
     cout << "size of char: \t\t\t" << sizeof(c) << endl;
     cout << "size of int: \t\t\t" << sizeof(i) << endl;
-    cout << "size of double: \t\t" << sizeof(db) << endl;
-    cout << "size of array[]: \t\t" << sizeof(myArray) << endl;
-        // size of myArray 80 why? each double vaule needs 8byts => 8 * 10
+    cout << "size of double: \t\t" << sizeof(db) << endl << endl;
+    cout << "size of int    array[]: \t\t" << sizeof(myIntArray) << endl ;
+    cout << "size of double array[]: \t\t" << sizeof(myArray) << endl << endl;
 
+    // size of myArray 80 why? each double vaule needs 8byts => 8 * 10
 
-    // dived by size of one element depending of size of element it will
+    // divided by size of one element depending of size of element it will
     // correct number of elements in array
-    cout << "corrected array size: \t"  << sizeof(myArray) / sizeof(myArray[0])<< endl;
+
+    cout << "DOUBLE \t corrected myArray[10]    | size: \t"  << sizeof(myArray) / sizeof(myArray[0])<< endl;
+    cout << "INT    \t corrected myIntArray[10] | size: \t"  << sizeof(myIntArray) / sizeof(myIntArray[0])<< endl;
+
     cout << "\n" << endl;
 
 }
@@ -464,6 +503,7 @@ void mathPointer(){
     int *adressToMyArray2 = &myArray[2];
 
     // see that adress jumps for each pointer by 4, because required space for one int is 4bytes
+    cout << "[int requires 4 bytes of memory]" << endl;
     cout << "adress to myArray[0]: \t" << adressToMyArray0 << " int" << endl;
     cout << "adress to myArray[1]: \t" << adressToMyArray1 << " int" << endl;
     cout << "adress to myArray[2]: \t" << adressToMyArray2 << " int" <<endl;
@@ -475,6 +515,7 @@ void mathPointer(){
     double *adressToMyArrayDouble2 = &myFloatArray[2];
 
     // see that adress jumps for each pointer by 4, because required space for one int is 4bytes
+    cout << "[double requires X bytes of memory]" << endl;
     cout << "adress to myArray[0]: \t" << adressToMyArrayDouble0 << " double "<< endl;
     cout << "adress to myArray[1]: \t" << adressToMyArrayDouble1 << " double "<< endl;
     cout << "adress to myArray[2]: \t" << adressToMyArrayDouble2 << " double "<< endl;
@@ -487,6 +528,7 @@ void mathPointer(){
     string *adressToMyArrayString2 = &myStringArray[2];
 
     // see that adress jumps for each pointer by 4, because required space for one int is 4bytes
+    cout << "[string requires X bytes of memory]" << endl;
     cout << "adress to myArray[0]: \t" << adressToMyArrayString0 << " string"<< endl;
     cout << "adress to myArray[1]: \t" << adressToMyArrayString1 << " string"<< endl;
     cout << "adress to myArray[2]: \t" << adressToMyArrayString2 << " string"<< endl;
@@ -703,3 +745,5 @@ myType addmyType(myType a, myType b) {
 
     return z;
 }
+
+

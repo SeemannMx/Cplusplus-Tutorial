@@ -17,7 +17,6 @@ class Selektor {
     void doConstantSomething() const;
     void print();
 
-
     private:
         int variable;
         const int constVariable;
