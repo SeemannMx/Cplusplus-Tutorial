@@ -8,7 +8,6 @@
 
 // using standard library
 using namespace std;
-#include "ThisKeyWord.h"
 
 OperatorTest::OperatorTest() {
 
@@ -19,6 +18,7 @@ OperatorTest::OperatorTest(int input) {
         number = input;
 }
 
+// verbinde bei Objekte mit plus, addiere und return
 OperatorTest OperatorTest::operator+(OperatorTest inputObject) {
 
     OperatorTest newOject;

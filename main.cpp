@@ -625,6 +625,7 @@ void operatorOverloading() {
 
     // call function OperatorClass "// opertor+()int)
     OperatorTest Ergebnis = Number1 + Number2;
+
     cout << "Zahl 1:   " << Number1.number << endl;
     cout << "Zahl 2:   " << Number2.number << endl;
     cout << "Opartor : " << " + " << endl;
@@ -703,6 +704,7 @@ void abstarctClasses(){
 
     Ninja ninja;
     Enemy *enemyNinja = &ninja;
+
     enemyNinja->setFatalityAttackPower(15);         // function is virtual, with option of override
     enemyNinja->fatalityAttack();
 
